@@ -1,9 +1,9 @@
-module Radianes
+module Angulos
 ( sqFloat
 , radianes ) where 
 
-  sqFloat :: Float -> Float
+  sqFloat :: Double -> Double
   sqFloat x = x * x
 
-  radianes :: Float -> Float -> Float -> Float
+  radianes :: Double -> Double -> Double -> Double
   radianes a b c = ( -(((sqFloat a) - (sqFloat b) - (sqFloat c))/ (2*b*c)))
