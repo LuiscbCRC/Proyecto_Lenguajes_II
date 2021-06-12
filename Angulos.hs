@@ -6,4 +6,4 @@ module Angulos
   sqFloat x = x * x
 
   radianes :: Double -> Double -> Double -> Double
-  radianes a b c = ( -(((sqFloat a) - (sqFloat b) - (sqFloat c))/ (2*b*c)))
+  radianes a b c = acos ( -(((sqFloat a) - (sqFloat b) - (sqFloat c))/ (2*b*c)))
