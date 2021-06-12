@@ -47,5 +47,10 @@ module Main where
       ; putStr ( show $ radianes lado2 lado1 lado3 )
       ; putStr " + "
       ; putStr ( show $ radianes lado3 lado2 lado1 )
-    
+
+      ; putStrLn ("Valor de la suma de los angulos")
+      ; let suma1 = radianes lado1 lado2 lado3
+      ; let suma2 = suma1 + radianes lado2 lado1 lado3
+      ; let suma = suma2 + radianes lado3 lado2 lado1 
+      ; putStr ( show $ suma )
 }
