@@ -1,4 +1,4 @@
-# Proyecto-II-Lenguajes
+# Proyecto-Lenguajes-II
 
 Para correr este programa en Linux/Ubuntu utilizar los comandos 
 
